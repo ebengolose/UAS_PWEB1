@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - Nusantara Buku</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hubungi Kami</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bukuMotivasi.html">Buku Motivasi</a></li>
+        <li><a href="bukuKeuangan.html">Buku Keuangan</a></li>
+        <li><a href="bukuTerlaris.html">Buku Terlaris</a></li>
+        <li><a href="pemesanan.html">Pemesanan</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Formulir Buku Tamu</h2>
+        <form
+          action="mailto:contoh@email.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="pesan">Pesan/Saran:</label>
+          <textarea id="pesan" name="pesan" required></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
